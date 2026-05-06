@@ -103,6 +103,26 @@ This project was developed and tested in Google Colab. Google Colab was used for
 
 The code mounts Google Drive, loads imaging data, performs preprocessing, trains the neural network, visualizes results, and saves trained models and comparison summaries.
 
+## Results
+
+### Training and validation loss
+![Training and validation loss](images/training_validation_loss.png)
+
+### Reconstruction comparison
+![Reconstruction comparison](images/reconstruction_comparison_example_1.png)
+
+### Quality metrics during training
+![Quality metrics curves](images/quality_metrics_curves.png)
+
+### Quantitative metrics comparison
+![Quantitative metrics comparison](images/quantitative_metrics_comparison.png)
+
+### Reconstruction comparison — real-life patient A
+![Real-life patient A reconstruction comparison](images/real_life_patient_a.png)
+
+### Reconstruction comparison — real-life patient B
+![Real-life patient B reconstruction comparison](images/real_life_patient_b.png)
+
 ## Repository Structure
 
 ```text
@@ -111,3 +131,5 @@ medical-image-reconstruction-fbp-unet/
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Python dependencies
 └── .gitignore                   # Files and folders excluded from GitHub
+
+
